@@ -33,4 +33,4 @@ Fitur utama:
 
 ### Swagger / API Docs
 
-![tambah event baru dan tambah peserta ke event](img/SS_4.png
+![tambah event baru dan tambah peserta ke event](img/SS_4.png)
