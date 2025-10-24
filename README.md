@@ -19,18 +19,10 @@ Fitur utama:
 
 ## Screenshot
 
-### Frontend - Daftar Event
-
 ![Daftar API](img/SS_1.png)
-
-### Frontend - Tambah Event
 
 ![menjalankan backend](img/SS_2.png)
 
-### Frontend - Daftar Peserta
-
 ![API docs (/docs)](img/SS_3.png)
-
-### Swagger / API Docs
 
 ![tambah event baru dan tambah peserta ke event](img/SS_4.png)
