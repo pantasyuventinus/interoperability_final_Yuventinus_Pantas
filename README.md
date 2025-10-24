@@ -17,4 +17,48 @@ Fitur utama:
 5. Mendaftar sebagai peserta
 6. Validasi kuota event
 
+#Strukturnya:
+interoperability_final_Yuventinus_Pantas/
+│
+├── app/
+│ ├── **init**.py
+│ ├── main.py
+│ ├── database.py
+│ ├── models.py
+│ ├── schemas.py
+│ └── routes/
+│ ├── **init**.py
+│ ├── event.py
+│ └── participant.py
+│
+├── img/ # Folder untuk screenshot
+│ ├── SS_1.png # Screenshot daftar API
+│ ├── SS_2.png # Screenshot menjalankan backend
+│ ├── SS_3.png # Screenshot API docs (/docs)
+│ └── SS_4.png # Screenshot tambah event baru dan tambah peserta ke event
+│
+├── index.html # Frontend HTML sederhana
+├── create_db.sql # Script SQL untuk membuat database
+├── init_db.py # Script inisialisasi database (opsional)
+├── requirements.txt # Dependencies Python
+└── README.md # Dokumentasi proyek lengkap
+
 ---
+
+## Screenshot
+
+### Frontend - Daftar Event
+
+![Daftar API](img/SS_1.png)
+
+### Frontend - Tambah Event
+
+![menjalankan backend](img/SS_2.png)
+
+### Frontend - Daftar Peserta
+
+![API docs (/docs)](img/SS_3.png)
+
+### Swagger / API Docs
+
+![tambah event baru dan tambah peserta ke event](img/SS_4.png)
