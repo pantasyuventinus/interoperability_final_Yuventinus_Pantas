@@ -8,7 +8,7 @@ Proyek ini adalah sistem sederhana untuk **melihat dan mendaftar event kampus**.
 - **Database** menggunakan **SQLite**
 - **Frontend/Client** menggunakan **HTML sederhana**
 
-Fitur utama:
+## Fitur utama:
 
 1. Melihat daftar event kampus
 2. Menambahkan event baru
@@ -17,7 +17,7 @@ Fitur utama:
 5. Mendaftar sebagai peserta
 6. Validasi kuota event
 
-## Screenshot
+## Screenshot Hasil Uji
 
 ![Daftar API](img/SS_1.png)
 
