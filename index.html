@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Campus Event Registration Platform</title>
+    <style>
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #f4f6f8;
+        margin: 0;
+        padding: 0;
+        color: #333;
+      }
+
+      header {
+        background-color: #0077b6;
+        color: white;
+        padding: 20px;
+        text-align: center;
+        font-size: 1.6rem;
+        font-weight: bold;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+      }
+
+      main {
+        padding: 20px;
+        max-width: 800px;
+        margin: 20px auto;
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+
+      h2 {
+        color: #0077b6;
+        border-bottom: 2px solid #0077b6;
+        padding-bottom: 5px;
+      }
+
+      form {
+        margin-top: 10px;
+        background-color: #f9fafb;
+        padding: 15px;
+        border-radius: 8px;
+        border: 1px solid #ddd;
+      }
+
+      form label {
+        display: block;
+        margin-top: 10px;
+        font-weight: 500;
+      }
+
+      form input {
+        width: 100%;
+        padding: 8px;
+        margin-top: 5px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+      }
+
+      form button {
+        margin-top: 15px;
+        background-color: #0077b6;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        font-weight: bold;
+        transition: background 0.3s;
+      }
+
+      form button:hover {
+        background-color: #023e8a;
+      }
+
+      footer {
+        text-align: center;
+        margin: 20px 0;
+        color: #777;
+        font-size: 0.9rem;
+      }
+    </style>
+  </head>
+  <body>
+    <header>Campus Event Registration Platform</header>
+
+    <main>
+      <!-- Tambah Event -->
+      <section>
+        <h2>Tambah Event Baru</h2>
+        <form>
+          <label for="judul">Judul Event:</label>
+          <input type="text" id="judul" placeholder="Masukkan nama event" />
+
+          <label for="tanggal">Tanggal (YYYY-MM-DD):</label>
+          <input type="date" id="tanggal" />
+
+          <label for="lokasi">Lokasi:</label>
+          <input type="text" id="lokasi" placeholder="Lokasi event" />
+
+          <label for="kuota">Kuota:</label>
+          <input
+            type="number"
+            id="kuota"
+            placeholder="Jumlah peserta maksimum"
+          />
+
+          <button type="submit">Tambah Event</button>
+        </form>
+      </section>
+
+      <!-- Daftar Peserta ke Event -->
+      <section>
+        <h2>Daftar Peserta ke Event</h2>
+        <form>
+          <label for="nama">Nama:</label>
+          <input type="text" id="nama" placeholder="Masukkan nama peserta" />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" placeholder="Masukkan email peserta" />
+
+          <label for="id_event">ID Event:</label>
+          <input type="number" id="id_event" placeholder="Masukkan ID Event" />
+
+          <button type="submit">Daftar</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>&copy; 2025 Campus Event Registration | All Rights Reserved</footer>
+  </body>
+</html>
